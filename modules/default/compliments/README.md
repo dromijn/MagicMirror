@@ -62,10 +62,7 @@ config: {
 	compliments: {
 		day_sunny: [
 			"Today is a sunny day",
-			"It's a beautiful day"
-		],
-		snow: [
-			"Snowball battle!"
+			"Be sure to wear a hat when you're outside"
 		],
 		rain: [
 			"Don't forget your umbrella"
@@ -80,22 +77,24 @@ config: {
 config: {
 	compliments: {
 		anytime: [
-			"Hey there sexy!"
+			"Appointment 10:30am"
 		],
 		morning: [
-			"Good morning, handsome!",
-			"Enjoy your day!",
-			"How was your sleep?"
+			"Wash",
+			"Brush teeth",
+			"Get dressed",
+			"Prepare and eat breakfast",
+			"Have a conversation with your daughter over a beverage"
 		],
 		afternoon: [
-			"Hello, beauty!",
-			"You look sexy!",
-			"Looking good today!"
+			"Prepare and eat breakfast",
+			"Take a nap"
 		],
 		evening: [
-			"Wow, you look hot!",
-			"You look nice!",
-			"Hi, sexy!"
+			"Prepare and eat dinner",
+			"Take a bath",
+			"Get ready for bed",
+			"Read a book",
 		]
 	}
 }
@@ -112,22 +111,27 @@ around them ("morning", "afternoon", "evening", "snow", "rain", etc.).
 ````json
 {
     "anytime" : [
-        "Hey there sexy!"
+        "Appointment 10:30am"
     ],
     "morning" : [
-        "Good morning, sunshine!",
-        "Who needs coffee when you have your smile?",
-        "Go get 'em, Tiger!"
+        "Wash",
+        "Brush teeth",
+        "Get dressed",
+	"Prepare and eat breakfast",
+	"Have a conversation with your daughter over a beverage",
+	"Appointment 10:30am"
+
     ],
     "afternoon" : [
-        "Hitting your stride!",
-        "You are making a difference!",
-        "You're more fun than bubble wrap!"
+        "Prepare and eat lunch",
+        "Take a nap"
+        
     ],
     "evening" : [
-        "You made someone smile today, I know it.",
-        "You are making a difference.",
-        "The day was better for your efforts."
+        "Prepare and eat dinner",
+        "Take a bath",
+        "Get ready for bed",
+	"Read a book"
     ]
 }
 ````
